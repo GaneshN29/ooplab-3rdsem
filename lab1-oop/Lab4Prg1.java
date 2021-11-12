@@ -10,10 +10,10 @@ public class Lab4Prg1 {
 			
 			
 		}
-		if((x==1) || (x%2 == 0) || (x%3 == 0)) {
+		if((x==1)) {
 			isPrime = false;
 		}
-		for(int i=2; i*i<x; i+=6) {
+		for(int i=2; i<x; i++) {
 			if((x % i) == 0) {
 				isPrime = false;
 			}
