@@ -6,7 +6,7 @@ public class Lab2Prg2 {
 
 	public static void main(String[] args) {
 	
-		public static void main(final String[] args) {
+	
 			final Scanner Sc = new Scanner(System.in);
 			System.out.print("Enter the number a,b and c:");
 			final int a = Sc.nextInt();
