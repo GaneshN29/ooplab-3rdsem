@@ -26,7 +26,7 @@ public class Lab4Prg2 {
 			}
 		}
 		
-		System.out.println("The maximum and minimum elements of the array are " + max + " and " + min + " respectively.");
+		System.out.println("The Largest and Smallest elements of the array are " + max + " and " + min + " respectively.");
 	}
 
 }
