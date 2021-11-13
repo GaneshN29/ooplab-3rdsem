@@ -15,10 +15,10 @@ public class Lab4Prg2 {
 			arr[i] = sc.nextInt();
 		}
 		
-		int max = -999;
-		int min = 999;
+		int max = arr[0];
+		int min = arr[0];
 		
-		for(int i=0; i<n; i++) {
+		for(int i=1; i<n; i++) {
 			if(arr[i] >= max) {
 				max = arr[i];
 			} else if(arr[i] <= min) {
